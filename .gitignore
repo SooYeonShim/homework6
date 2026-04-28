@@ -1,58 +1,28 @@
-### C++
-# Object files
-*.o
-*.obj
+# --- Unreal Engine 관련 ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Static libraries
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Debug files
-*.dSYM/
-*.idb
+# --- 빌드 결과물 및 로그 ---
+obj/
+*.log
+*.tmp
 *.pdb
 
-### Windows
-# Windows thumbnail cache files
+# --- 플러그인 빌드 결과물 ---
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# --- 기타 OS 관련 ---
+.DS_Store
 Thumbs.db
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
-
-### JetBrains
-# JetBrains IDE directory
-.idea/
-
-# CMake build directories
-cmake-build-*/
-
-# File-based project format
-*.iws
-*.iml
-
-# IntelliJ build output
-out/
